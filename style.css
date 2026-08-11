@@ -177,14 +177,9 @@ p{ color:var(--mid); }
    About
 --------------------------------- */
 .about{
-  position:relative; overflow:hidden;
   display:grid; grid-template-columns:0.9fr 1.1fr; gap:60px; align-items:center;
   padding:100px var(--pad); background:var(--ink-soft);
   border-top:1px solid var(--line); border-bottom:1px solid var(--line);
-}
-.hero__kanji--about{
-  right:auto; left:-4vw; top:50%; transform:translateY(-50%);
-  font-size:min(50vw, 480px);
 }
 .about__mark{ position:relative; }
 .about__mark img{
