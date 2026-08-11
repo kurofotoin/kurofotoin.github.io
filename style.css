@@ -164,9 +164,10 @@ p{ color:var(--mid); }
   display:flex; align-items:baseline; gap:10px;
   padding:16px 18px; font-size:13px; letter-spacing:0.08em;
   color:var(--paper);
-  background:linear-gradient(to top, rgba(10,10,10,0.7), rgba(10,10,10,0));
+  text-shadow:0 1px 6px rgba(0,0,0,0.6);
+  background:linear-gradient(to top, rgba(10,10,10,0.88) 0%, rgba(10,10,10,0.55) 45%, rgba(10,10,10,0) 100%);
 }
-.frame figcaption span{ color:var(--mid); font-size:11px; }
+.frame figcaption span{ color:#d8d8d3; font-size:11px; text-shadow:0 1px 6px rgba(0,0,0,0.7); }
 .work__note{ margin-top:28px; font-size:13px; color:var(--mid); }
 .work__note code{ color:var(--paper); }
 .work__note--light{ color:var(--mid-on-light); }
