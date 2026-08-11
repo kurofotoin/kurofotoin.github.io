@@ -287,6 +287,7 @@ p{ color:var(--mid); }
   .nav--open .nav__cta{ display:inline-flex; }
   .about{ grid-template-columns:1fr; }
   .about__mark{ max-width:220px; }
+  .about__kanji{ display:none; }
   .services__grid{ grid-template-columns:repeat(2,1fr); }
   .testimonials__list{ grid-template-columns:1fr; gap:36px; }
   .contact__card{ grid-template-columns:1fr; }
