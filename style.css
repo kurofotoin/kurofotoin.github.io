@@ -182,7 +182,12 @@ p{ color:var(--mid); }
   border-top:1px solid var(--line); border-bottom:1px solid var(--line);
 }
 .about__mark{ position:relative; }
-.about__mark img{ filter:invert(0); width:100%; max-width:340px; }
+.about__mark img{
+  width:100%; max-width:440px;
+  aspect-ratio:1/1; object-fit:cover;
+  filter:grayscale(1) contrast(1.02);
+  border:1px solid var(--line);
+}
 .about__text h2{ font-size:clamp(26px, 3.4vw, 38px); color:var(--paper); margin-bottom:22px; }
 .about__text p{ margin-bottom:16px; max-width:520px; }
 
