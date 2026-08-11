@@ -220,6 +220,7 @@ p{ color:var(--mid); }
 --------------------------------- */
 .testimonials{
   position:relative; padding:120px var(--pad); text-align:center; overflow:hidden;
+  border-top:1px solid var(--line);
 }
 .hero__kanji--light{ left:50%; right:auto; top:20%; transform:translate(-50%,0); font-size:min(70vw,520px); }
 .testimonials .eyebrow{ position:relative; }
