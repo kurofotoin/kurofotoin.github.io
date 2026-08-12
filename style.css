@@ -151,6 +151,7 @@ p{ color:var(--mid); }
 }
 .frame:hover img{ transform:scale(1.04); }
 .frame--f img{ object-position:center 30%; }
+.frame--e img{ object-position:center 15%; }
 .frame__pending{
   position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
   display:flex; flex-direction:column; align-items:center; gap:8px;
