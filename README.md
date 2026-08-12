@@ -9,6 +9,8 @@ index.html   — all page content/sections
 style.css    — design system + layout
 script.js    — nav toggle, footer year, scroll-reveal
 assets/      — logo files
+assets/work  — photo files
+
 ```
 
 ## Run locally
