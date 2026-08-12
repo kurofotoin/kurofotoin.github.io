@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黒fotoin — Links</title>
+<meta name="description" content="Contact and links for Kurofotoin photography studio.">
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .links-page{
+    min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding:80px 24px; position:relative; overflow:hidden; text-align:center;
+  }
+  .links-page .hero__kanji{ opacity:0.05; }
+  .links-page__mark{
+    font-family:var(--font-display); font-weight:900; font-size:28px;
+    position:relative; margin-bottom:6px;
+  }
+  .links-page__mark span{ font-weight:400; letter-spacing:0.18em; margin-left:6px; }
+  .links-page__tagline{
+    position:relative; font-size:13px; color:var(--mid);
+    letter-spacing:0.04em; margin-bottom:48px;
+  }
+  .links-page__list{
+    position:relative; width:100%; max-width:360px;
+    display:flex; flex-direction:column; gap:14px;
+  }
+  .links-page__list .btn{ width:100%; padding:16px 24px; font-size:15px; }
+  .links-page__footer{
+    position:relative; margin-top:56px; font-size:11px; letter-spacing:0.08em;
+    color:var(--mid);
+  }
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+
+<section class="links-page">
+  <div class="hero__kanji" aria-hidden="true">黒</div>
+
+  <p class="links-page__mark">黒<span>fotoin</span></p>
+  <p class="links-page__tagline">Photography studio — event, wedding &amp; graduation documentation</p>
+
+  <div class="links-page__list">
+    <a href="https://kurofotoin.github.io/" class="btn btn--solid">Visit Website</a>
+    <a href="https://wa.me/6287777003015" class="btn btn--ghost" target="_blank" rel="noopener">WhatsApp — Sergio</a>
+    <a href="https://wa.me/6289525091951" class="btn btn--ghost" target="_blank" rel="noopener">WhatsApp — Fathan</a>
+    <a href="https://instagram.com/kurofotoin" class="btn btn--ghost" target="_blank" rel="noopener">Instagram @kurofotoin</a>
+  </div>
+
+  <p class="links-page__footer">© <span id="year"></span> Kurofotoin</p>
+</section>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
