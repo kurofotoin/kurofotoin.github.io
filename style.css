@@ -60,8 +60,6 @@ p{ color:var(--mid); }
 }
 .btn--solid{ background:var(--paper); color:var(--ink); border-color:var(--paper); }
 .btn--solid:hover{ background:transparent; color:var(--paper); }
-.contact .btn--solid{ color:var(--ink); }
-.contact .btn--solid:hover{ background:transparent; color:var(--ink); border-color:var(--ink); }
 .btn--ghost{ color:var(--paper); }
 .btn--ghost:hover{ background:var(--paper); color:var(--ink); }
 
@@ -238,11 +236,11 @@ p{ color:var(--mid); }
 /* ---------------------------------
    Contact
 --------------------------------- */
-.contact{ background:var(--paper); color:var(--ink); padding:0 var(--pad) 0; }
+.contact{ background:var(--ink); color:var(--paper); padding:0 var(--pad) 0; }
 .contact__card{
   max-width:var(--wrap); margin:0 auto;
   display:grid; grid-template-columns:1fr 1.2fr;
-  border:1px solid var(--line-light);
+  border:1px solid var(--line);
 }
 .contact__left{
   background:var(--ink); color:var(--paper);
@@ -255,7 +253,7 @@ p{ color:var(--mid); }
 .contact__ig{ font-size:14px; letter-spacing:0.05em; color:var(--mid); }
 .contact__ig:hover{ color:var(--paper); }
 .contact__right{ padding:60px 44px; display:flex; flex-direction:column; justify-content:center; }
-.contact__right h2{ font-size:clamp(26px,3.4vw,36px); color:var(--ink); margin-bottom:16px; }
+.contact__right h2{ font-size:clamp(26px,3.4vw,36px); color:var(--paper); margin-bottom:16px; }
 .contact__sub{ margin-bottom:32px; max-width:400px; }
 .contact__right .btn{ width:fit-content; }
 
@@ -263,12 +261,12 @@ p{ color:var(--mid); }
    Footer
 --------------------------------- */
 .footer{
-  background:var(--paper); color:var(--ink);
+  background:var(--ink); color:var(--paper);
   display:flex; align-items:center; justify-content:space-between;
-  padding:32px var(--pad) 40px; font-size:12px; letter-spacing:0.05em; color:var(--mid-on-light);
+  padding:32px var(--pad) 40px; font-size:12px; letter-spacing:0.05em; color:var(--mid);
   max-width:var(--wrap); margin:0 auto;
 }
-.footer p:first-child{ font-family:var(--font-display); font-weight:900; color:var(--ink); font-size:14px; }
+.footer p:first-child{ font-family:var(--font-display); font-weight:900; color:var(--paper); font-size:14px; }
 
 /* ---------------------------------
    Scroll reveal
